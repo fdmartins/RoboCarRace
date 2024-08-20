@@ -9,6 +9,14 @@ https://www.robocarrace.com.br/
 * Veja os vídeos detalhados da construção do carro na playlist do YouTube: 
 https://www.youtube.com/playlist?list=PLqjsxWOL0TM39jP3NmErrgpj0gdBl9_DG
 
+### Divisão do projeto
+Este projeto está separado por funcionalidades. 
+- Parte 1: Codigo para comunicar com multiplos sensores de ultrassom genérico HC-SR04
+- Parte 2: Codigo para controlar um servo motor, geralmente usado para o controle de direção em carros de radio controle.
+- Parte 3: Codigo para controlar uma controladora ESC. O ESC é um dispositivo usado para controlar motores do tipo brushless (sem escovas) de 3 fios.
+- Parte 4: Este código serve para coletar dados da pista. É feito um video e um arquivo csv. Cada linha o CSV é um frame e a posição da direção, velocidade e leituras de distancia do ultrassom.
+- Parte 5: Este codigo é uma versão funcional que usa segmentação simples da pista, roda apenas em nivel de CPU, portanto, em qualquer plataforma como Raspberry Pi.
+
 ### Problemas de leitura/ruídos com o sensor de ultrassom?
 veja este vídeo: https://www.youtube.com/watch?v=t73wGzd_4aE
 
